@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Output images (not committed, generated on run)
+*.png
+*.jpg
+!data/**/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp scripts
+setup_*.py
+download_pdf.py
