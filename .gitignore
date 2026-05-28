@@ -18,6 +18,8 @@ build/
 
 # Output images (not committed, generated on run)
 *.png
+!filter_demo.png
+!blend_compare.png
 *.jpg
 !data/**/*.jpg
 
